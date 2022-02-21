@@ -5,7 +5,6 @@
     font-family: Sans-serif;
     font-weight: bold;
   }
-
   body 
   {
    background-color: rgb(83, 86, 255);
@@ -15,7 +14,6 @@
     -ms-transition: 0.8s;
     -o-transition: 0.8s;
   }
-
   h1
   {
       margin-top: 25vh;
@@ -30,7 +28,7 @@
   }
   .result
   {
-      width: 16%;
+      width: 220px;
   }
   input 
 {
@@ -48,7 +46,6 @@
       -ms-border-radius: 5px;
       -o-border-radius: 5px;
     }
-
   .First-row,
   .Second-row,
   .Third-row,
@@ -69,8 +66,8 @@
   }
 
   button {
-    border: none;
-    background-color: rgb(97,179,247);
+    border: rgb(255, 0, 0) solid 1px transparent;
+    background-color: darkturquoise;
     padding: 10px;
     color: rgb(0,0,0);
     margin: 2px;
@@ -86,12 +83,12 @@
   }
   .Sixth-row
   {
-    width : 30%;
+    width : 400px;
   }
   input[type="checkbox"]:checked{
     color: none;
   }
-  
+
   @media (max-width: 640px) {
     h1 {
       margin-top: 15vh;

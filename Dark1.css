@@ -30,10 +30,11 @@
   }
   .result
   {
-      width: 16%;
+      width: 220px;
   }
   input 
 {
+      border: none;
       padding: 25px;
       color: rgb(255, 255, 255);
       font-size: 1em;
@@ -55,6 +56,7 @@
   .Fourth-row,
   .Fifth-row{
     margin-bottom: 3px;
+    
   }
   input[type="text"] {
     background-color: rgb(47, 51, 50);
@@ -63,14 +65,10 @@
     background-color: rgb(160,160,160);
     color: rgb(255, 255, 255);
   }
-  .clear {
-    color: #fff;
-    background-color: rgb(255, 0, 0);
-  }
-
+  
   button {
-    border: none;
-    background-color: rgb(36,36,36);
+    border: rgb(160, 160, 160) solid 1px transparent;
+    background-color: rgb(0, 0, 0);
     padding: 10px;
     color: rgb(255, 255, 255);
     margin: 2px;
@@ -86,7 +84,7 @@
   }
   .Sixth-row
   {
-    width : 30%;
+    width : 400px;
   }
   input[type="checkbox"]:checked{
     color: none;
@@ -97,3 +95,8 @@
       margin-top: 15vh;
     }
   }
+  .clear  {
+    color: #fff;
+    background-color: rgb(255, 0, 0);
+  }
+ 
