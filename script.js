@@ -12,7 +12,7 @@ function clearResults() {
     let theme = document.getElementById("theme");
     if (theme.getAttribute("href") == "Light.css") {
       theme.href = "Dark1.css";
-      darkMode.innerHTML = "Light Mode 🌙";
+      darkMode.innerHTML = "Light Mode 🌞";
     } else {
       theme.href = "Light.css";
       darkMode.innerHTML = "Dark Mode 🌙";
