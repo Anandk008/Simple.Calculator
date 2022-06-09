@@ -1,0 +1,52 @@
+
+body{
+  background-color: #101820ff;
+}
+
+input{
+  color: black;
+  background-color: #fee715ff;
+  border: 2px white solid;
+}
+
+#heading p{
+   background-color:#fee715ff;
+   color: black;
+   border: 2px white solid;
+ }
+ 
+ 
+ #result{
+   background-color: white;
+ }
+ .result:hover {
+   color: #000;
+ }
+ 
+
+ input[type="text"] {
+   background-color: #000;
+ }
+ 
+ input[type="button"]:hover {
+   background-color: #101820ff;
+   color: #fff;
+ }
+ 
+
+ 
+ button{
+   background-color: #fee715ff;
+   color: black;
+   border: white 2px solid;
+ }
+ 
+ button:hover{
+  background-color: rgba(254, 231, 21, 0.8);
+ }
+ 
+ 
+ 
+ 
+ 
+ 
