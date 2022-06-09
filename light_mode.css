@@ -1,0 +1,47 @@
+
+body{
+ background-color:#fee715ff;
+}
+
+input{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    outline: rgb(248, 74, 74);
+}
+
+#heading p{
+  background-color: #101820ff;
+  color: white;
+  border: 2px white solid;
+}
+
+.result:hover {
+  color: #000;
+}
+
+
+input{
+  border: black 2px solid;
+}
+input[type="text"] {
+  background-color: #fff;
+}
+
+input[type="button"]:hover {
+  background-color: #101820ff;
+  color: #fff;
+}
+
+
+button{
+  background-color: #101820ff;
+  color: white;
+  border: white 2px solid;
+}:hover{
+  color: #ccc;
+}
+
+
+
+
+
